@@ -1,0 +1,66 @@
+*{ 
+    margin:0;
+    padding:0;
+   font-family:'Franklin Gothic Medium',sans-serif;
+}
+body{
+  background-image:url(./Cover.jpg);
+}
+
+    header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:90% ;
+    margin: auto;
+    padding: 20px 0;
+    }
+     .logo{
+        width: 150px;
+        border-radius: 25px;
+        height: 110px;
+        padding-top: 10px;
+    }
+ul li{  
+         display: inline-block; 
+        list-style: none;
+       margin: 0 6px;
+       font-size:xx-large
+    }
+ ul li a{
+        color: white;
+        text-decoration: none;
+       margin: 0 20px;
+       
+    }
+ ul li a:hover{
+    color: rgb(253, 253, 253);
+    background-color:rgb(238, 82, 43);
+    border-radius: 0px ;
+        margin-bottom: 60px;
+ }
+ h1{
+    color: white;
+    font-style: oblique;
+    font-size: xx-large;
+    padding: 50px;
+ }
+li{
+    color: white;
+    font-style: oblique;
+    font-size: xx-large;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+th{
+   font-size: xx-large;
+   font-style: bold;
+   padding: 15px;
+   color: white;
+}
+td{
+   padding: 25px;
+   font-size: larger;
+   font-style: bold;
+   color: white;
+}

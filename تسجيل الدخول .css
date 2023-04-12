@@ -1,0 +1,59 @@
+*{ 
+    margin:0;
+    padding:0;
+   font-family:'Franklin Gothic Medium',sans-serif;
+}
+body{
+  background-image:url(./Cover.jpg);
+}
+.logo{
+    width: 150px;
+    border-radius: 30px;
+    height: 100px;
+    padding: 50px;
+}
+.content{
+	width:30%;
+	height:auto;
+	border:1px solid #ffffff00;
+	margin:20% auto;
+	text-align:center;
+	background:rgba(0,0,0,0.4);
+}
+.content .logo h1{
+	color:#fff;
+}
+.content .form{
+	margin-top:25px;
+}
+.content .form .input_outer input{
+	width:250px;
+	font-size:18px;
+	color:#fff;
+	border:0;
+	border-bottom:2px solid #fff;
+	padding:8px 10px;
+	background:#ffffff00;
+}
+.content .form .input_outer{
+	margin-top:15px;
+}
+.content .form .input_outer i{
+	font-size:18px;
+	color:#fff;
+}
+.content button{
+	width:200px;
+	height:40px;
+	margin:20px;
+	font-size:20px;
+	font-weight:700;
+	color:#afaeae;
+    background-color:#ffffff00;
+	border:0;
+	border-radius:15px;
+}
+.content button a{
+    text-decoration: none;
+    color: white;
+}
